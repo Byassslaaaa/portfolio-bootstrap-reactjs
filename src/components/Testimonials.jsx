@@ -68,7 +68,14 @@ function Testimonials() {
       </div>
       <Row className="testimonials-scroll justify-content-center">
         {testimonials.map((testimonial, index) => (
-          <Col key={index} xs={12} sm={6} md={4} className="mb-4 d-flex justify-content-center">
+          <Col
+            key={index}
+            xs={12}
+            sm={6}
+            md={4}
+            lg={3} // Adjust column width for better alignment
+            className={`d-flex justify-content-center mb-4`}
+          >
             <Card className="testimonial-card text-center">
               <div className="profile-img-container">
                 <img src={testimonial.imgUrl || "https://via.placeholder.com/100"} alt={testimonial.name} className="profile-img" />
