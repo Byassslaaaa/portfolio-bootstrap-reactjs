@@ -39,24 +39,24 @@ function App() {
   ];
   const projects = [
     {
-      title: "DecisionHub",
+      title: "Hospital Management System",
       date: "Jan 2024 - Dec 2023",
-      description: 'A Rule Builder application "Decision Hub" that empowers Business Analysts to create, save, and manage rules.',
-      technologies: ["React JS", "PostgresSQL", "Node JS", "Express JS", "Redux", "React Flow"],
+      description: "Create a hospital management application using java with a simple design.",
+      technologies: ["java", "Mysql"],
       image: "/Project1.png",
     },
     {
-      title: "Trackify",
+      title: "React-todolist",
       date: "Jun 2023 - Jul 2023",
-      description: "Trackify is a web application designed to streamline task management and enhance productivity.",
-      technologies: ["Docker", "AWS", "DuckDNS", "Eslint", "Husky", "CI/CD", "React JS", "MongoDB", "Express JS", "Redux"],
+      description: "Creating a todolist-CRUD website by utilizing react-js and bootstrap.",
+      technologies: ["React", "Bootstrap"],
       image: "/Project2.png",
     },
     {
-      title: "Podstream",
+      title: "UI Design Yuki Drink",
       date: "Apr 2023 - May 2023",
       description: "Developed a full-stack web application that allows users to search for, play, and pause their favorite podcasts.",
-      technologies: ["React JS", "MongoDB", "Node JS", "Express JS", "Redux"],
+      technologies: ["Figma", "Canva"],
       image: "/Project3.png",
     },
   ];
@@ -129,7 +129,7 @@ function App() {
         <h2 className="text-center" style={{ marginBottom: "30px" }}>
           Projects
         </h2>
-        <p className="text-center">I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.</p>
+        <p className="text-center">I have worked on a wide range of projects. From ui design to web. Here are some of my projects.</p>
         <Row className="justify-content-center">
           {projects.map((project, index) => (
             <Col key={index} xs={12} sm={10} md={6} lg={4} className="mb-4 d-flex align-items-stretch">
@@ -249,16 +249,16 @@ function App() {
                 </Nav.Item>
               </Nav>
               <div className="mb-3">
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="me-3">
+                <a href="https://www.facebook.com/bessi.tua.5686?mibextid=kFxxJD" target="_blank" rel="noopener noreferrer" className="me-3">
                   <FaFacebook />
                 </a>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="me-3">
+                <a href="https://x.com/byassslaaaa?t=MY10JtgVSR_pRL7Fl3wnEg&s=09" target="_blank" rel="noopener noreferrer" className="me-3">
                   <FaTwitter />
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="me-3">
+                <a href="www.linkedin.com/in/irsyad-winarko-27b3a82b2" target="_blank" rel="noopener noreferrer" className="me-3">
                   <FaLinkedin />
                 </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/byassslaaaa/" target="_blank" rel="noopener noreferrer">
                   <FaInstagram />
                 </a>
               </div>
