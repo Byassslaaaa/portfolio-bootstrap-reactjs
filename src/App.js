@@ -155,6 +155,7 @@ function App() {
         </Row>
       </Container>
 
+
       {/* Education Section */}
       <div id="education" className="education-section">
         <h2 className="text-center" style={{ marginBottom: "30px" }}>
