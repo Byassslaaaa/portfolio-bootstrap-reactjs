@@ -21,6 +21,8 @@ const HomePage = () => {
       <ProjectsSection />
       <WhyHireMeSection />
       <ToolsSection />
+      <EducationSection />
+      <CertificationsSection />
       <ContactSection />
       <Footer />
     </div>

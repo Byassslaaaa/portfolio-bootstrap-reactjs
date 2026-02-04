@@ -31,7 +31,7 @@ const HeroSection = () => {
               <div className="hero-social">
                 <p className="social-label">Find Me On:</p>
                 <div className="social-icons">
-                  <a href={SOCIAL_LINKS.facebook} target="_blank" rel="noopener noreferrer">
+                  <a href={SOCIAL_LINKS.github} target="_blank" rel="noopener noreferrer">
                     <FaGithub />
                   </a>
                   <a href={SOCIAL_LINKS.instagram} target="_blank" rel="noopener noreferrer">

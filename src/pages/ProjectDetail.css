@@ -18,9 +18,9 @@
 }
 
 .btn-back {
-  background: var(--bg-card);
-  border: 2px solid var(--purple-primary);
-  color: var(--purple-primary);
+  background: var(--bg-card) !important;
+  border: 2px solid var(--purple-primary) !important;
+  color: var(--purple-primary) !important;
   font-weight: 500;
   font-size: 1.2rem;
   width: 45px;
@@ -34,9 +34,9 @@
 }
 
 .btn-back:hover {
-  background: var(--purple-primary);
-  border: 2px solid var(--purple-primary);
-  color: white;
+  background: var(--purple-primary) !important;
+  border: 2px solid var(--purple-primary) !important;
+  color: white !important;
   box-shadow: 0 10px 25px rgba(124, 58, 237, 0.3);
   transform: translateY(-3px) scale(1.05);
 }
@@ -120,9 +120,9 @@
 }
 
 .btn-preview {
-  background: linear-gradient(135deg, var(--purple-primary), var(--purple-secondary));
-  border: none;
-  color: white;
+  background: linear-gradient(135deg, var(--purple-primary), var(--purple-secondary)) !important;
+  border: none !important;
+  color: white !important;
   font-weight: 500;
   font-size: 0.95rem;
   padding: 12px 35px;
@@ -133,16 +133,16 @@
 }
 
 .btn-preview:hover {
-  background: linear-gradient(135deg, var(--purple-secondary), var(--purple-light));
+  background: linear-gradient(135deg, var(--purple-secondary), var(--purple-light)) !important;
   box-shadow: 0 10px 25px rgba(124, 58, 237, 0.3);
   transform: translateY(-2px);
-  color: white;
+  color: white !important;
 }
 
 .btn-github {
-  background: transparent;
-  border: 2px solid var(--purple-primary);
-  color: var(--purple-primary);
+  background: transparent !important;
+  border: 2px solid var(--purple-primary) !important;
+  color: var(--purple-primary) !important;
   font-weight: 500;
   font-size: 0.95rem;
   padding: 12px 35px;
@@ -153,9 +153,9 @@
 }
 
 .btn-github:hover {
-  background: var(--purple-primary);
-  border: 2px solid var(--purple-primary);
-  color: white;
+  background: var(--purple-primary) !important;
+  border: 2px solid var(--purple-primary) !important;
+  color: white !important;
   box-shadow: 0 10px 25px rgba(124, 58, 237, 0.3);
   transform: translateY(-2px);
 }

@@ -3,15 +3,15 @@ export const SOCIAL_LINKS = {
   twitter: 'https://x.com/byassslaaaa?t=MY10JtgVSR_pRL7Fl3wnEg&s=09',
   linkedin: 'www.linkedin.com/in/irsyad-winarko-27b3a82b2',
   instagram: 'https://www.instagram.com/byassslaaaa/',
-  github: 'https://github.com',
+  github: 'https://github.com/byassslaaaa',
 };
 
 export const SITE_INFO = {
   name: 'Irsyad Winarko',
   title: 'Full Stack Developer & UI/UX Enthusiast',
   description: "I'm a passionate developer specializing in building modern web applications with React, Laravel, and creating intuitive user experiences.",
-  email: 'irsyadwinarko@gmail.com',
-  phone: '+62 895-3667-90303',
+  email: 'izenasw123@gmail.com',
+  phone: '+62 812-2920-0157',
   address: 'Yogyakarta, Indonesia',
   copyright: '2025 Irsyad Winarko. All rights reserved.',
 };
