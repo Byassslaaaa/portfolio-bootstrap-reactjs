@@ -12,7 +12,7 @@ const Navigation = () => {
     { id: 'skills', label: 'About' },
     { id: 'projects', label: 'Project' },
     { id: 'blog', label: 'Blog' },
-    { id: 'contact', label: 'Contact Me' }
+    { id: 'contact', label: 'Contact Me' },
   ];
 
   return (

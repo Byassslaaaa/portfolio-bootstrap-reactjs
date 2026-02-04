@@ -10,15 +10,15 @@ const EducationSection = () => {
       title: "Bachelor's Degree in Computer Science",
       subtitle: 'University Name',
       description: 'Focused on software engineering, web development, and database management systems.',
-      icon: <FaGraduationCap />
+      icon: <FaGraduationCap />,
     },
     {
       year: '2023 - Present',
       title: 'Full Stack Developer',
       subtitle: 'Freelance',
       description: 'Building modern web applications using React, Node.js, Laravel, and various other technologies.',
-      icon: <FaBriefcase />
-    }
+      icon: <FaBriefcase />,
+    },
   ];
 
   return (
@@ -30,14 +30,7 @@ const EducationSection = () => {
         </div>
         <div className="timeline">
           {timeline.map((item, index) => (
-            <motion.div
-              key={index}
-              className="timeline-item"
-              initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: index * 0.2 }}
-            >
+            <motion.div key={index} className="timeline-item" initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: index * 0.2 }}>
               <div className="timeline-content">
                 <p className="timeline-year">{item.year}</p>
                 <h3 className="timeline-title">{item.title}</h3>

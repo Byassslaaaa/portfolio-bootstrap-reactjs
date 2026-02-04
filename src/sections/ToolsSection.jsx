@@ -1,16 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { motion } from 'framer-motion';
-import { 
-  SiAdobephotoshop, 
-  SiFigma, 
-  SiHtml5, 
-  SiCss3, 
-  SiJavascript, 
-  SiReact,
-  SiNodedotjs,
-  SiLaravel 
-} from 'react-icons/si';
+import { SiAdobephotoshop, SiFigma, SiHtml5, SiCss3, SiJavascript, SiReact, SiNodedotjs, SiLaravel } from 'react-icons/si';
 
 const ToolsSection = () => {
   const tools = [
@@ -21,7 +12,7 @@ const ToolsSection = () => {
     { name: 'JavaScript', icon: <SiJavascript /> },
     { name: 'React', icon: <SiReact /> },
     { name: 'Node.js', icon: <SiNodedotjs /> },
-    { name: 'Laravel', icon: <SiLaravel /> }
+    { name: 'Laravel', icon: <SiLaravel /> },
   ];
 
   return (
@@ -33,14 +24,7 @@ const ToolsSection = () => {
         </div>
         <div className="tools-grid">
           {tools.map((tool, index) => (
-            <motion.div
-              key={index}
-              className="tool-item"
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.3, delay: index * 0.05 }}
-            >
+            <motion.div key={index} className="tool-item" initial={{ opacity: 0, scale: 0.8 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true }} transition={{ duration: 0.3, delay: index * 0.05 }}>
               <div className="tool-icon">{tool.icon}</div>
               <p className="tool-name">{tool.name}</p>
             </motion.div>

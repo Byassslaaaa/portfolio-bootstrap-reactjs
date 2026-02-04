@@ -10,22 +10,22 @@ const TestimonialsSection = () => {
       role: 'University Colleague',
       avatar: 'https://i.pravatar.cc/150?img=1',
       text: 'Irsyad is a dedicated developer with strong technical skills in both frontend and backend development. His ability to quickly learn new technologies and deliver quality work makes him a valuable team member.',
-      rating: 5
+      rating: 5,
     },
     {
       name: 'Course Instructor',
       role: 'IT Department',
       avatar: 'https://i.pravatar.cc/150?img=5',
       text: 'One of the most passionate students I have taught. Irsyad consistently demonstrates excellent problem-solving skills and a genuine interest in modern web development technologies.',
-      rating: 5
+      rating: 5,
     },
     {
       name: 'Hackathon Partner',
       role: 'Development Team',
       avatar: 'https://i.pravatar.cc/150?img=3',
       text: 'Working with Irsyad on our university projects has been great. He brings both technical expertise and creative UI/UX design thinking to every project we collaborate on.',
-      rating: 5
-    }
+      rating: 5,
+    },
   ];
 
   return (
@@ -38,13 +38,7 @@ const TestimonialsSection = () => {
         <div className="row g-4">
           {testimonials.map((testimonial, index) => (
             <div key={index} className="col-md-6 col-lg-4">
-              <motion.div
-                className="testimonial-card"
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-              >
+              <motion.div className="testimonial-card" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: index * 0.1 }}>
                 <div className="testimonial-header">
                   <img src={testimonial.avatar} alt={testimonial.name} className="testimonial-avatar" />
                   <div className="testimonial-info">

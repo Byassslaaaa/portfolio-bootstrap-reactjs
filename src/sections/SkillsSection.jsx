@@ -8,18 +8,18 @@ const SkillsSection = () => {
     {
       icon: <FaCode />,
       title: 'Frontend Development',
-      description: 'Building responsive and interactive user interfaces using React, JavaScript, and modern CSS frameworks with focus on performance and user experience.'
+      description: 'Building responsive and interactive user interfaces using React, JavaScript, and modern CSS frameworks with focus on performance and user experience.',
     },
     {
       icon: <FaServer />,
       title: 'Backend Development',
-      description: 'Developing robust server-side applications with Laravel, Node.js, implementing RESTful APIs and secure database management.'
+      description: 'Developing robust server-side applications with Laravel, Node.js, implementing RESTful APIs and secure database management.',
     },
     {
       icon: <FaPaintBrush />,
       title: 'UI/UX Design',
-      description: 'Creating intuitive and engaging user interfaces with modern design principles using Figma, ensuring optimal user experience across all devices.'
-    }
+      description: 'Creating intuitive and engaging user interfaces with modern design principles using Figma, ensuring optimal user experience across all devices.',
+    },
   ];
 
   return (
@@ -31,14 +31,7 @@ const SkillsSection = () => {
         </div>
         <div className="services-grid">
           {services.map((service, index) => (
-            <motion.div
-              key={index}
-              className="service-card"
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: index * 0.1 }}
-            >
+            <motion.div key={index} className="service-card" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5, delay: index * 0.1 }}>
               <div className="service-icon">{service.icon}</div>
               <h3 className="service-title">{service.title}</h3>
               <p className="service-description">{service.description}</p>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { HashRouter } from 'react-router-dom';
@@ -15,5 +14,5 @@ root.render(
         <App />
       </HashRouter>
     </ThemeProvider>
-  </React.StrictMode>
+  </React.StrictMode>,
 );
